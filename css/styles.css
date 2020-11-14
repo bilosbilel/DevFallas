@@ -10322,6 +10322,7 @@ a:not([href]):not([class]):hover {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
+  letter-spacing: 0ch;
 }
 .masthead h2 {
   background: #fcfcfc;
@@ -10457,5 +10458,7 @@ a:not([href]):not([class]):hover {
   text-align: center;
   bottom: 120px;
   position: relative;
+  line-height: 80%;
+  letter-spacing: 0ch;
   z-index: 1;
 }
